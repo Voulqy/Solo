@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.contentContainer {
+    /* padding: 24px 0; */
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
+a,
+a:active,
+a:visited {
+    text-decoration: none;
+}
+
+#chapterID {
+    display: none;
+}
+
+.chapterNavigationContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+#backButton,
+#nextButton,
+#chapterCatalog {
+    width: 100px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    font-family: 'Inter';
+}
+
+#chapterCatalog {
+    width: 150px;
+    padding: 10px;
+}
+
+#backButton,
+#nextButton {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 13px;
+}
+
+#backButton:hover,
+#nextButton:hover,
+#chapterCatalog:hover {
+    cursor: pointer;
+}
+
+#pagesContainer {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.imageColumn {
+    display: flex;
+    -moz-box-flex: 1;
+    flex: 1 0 0%;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1400px) {
+    #pagesContainer {
+        margin: 0 auto;
+    }
+}
