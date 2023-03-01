@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="icon" type="image/x-icon" href="#" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/src/css/reset.css" />
+        <link rel="stylesheet" href="/src/css/chapterPage.css" />
+    </head>
+    <body>
+        <main>
+            <div id="seriesID"></div>
+            <div id="chapterID"></div>
+            <div id="navContainer" class="chapterNavigationContainer"></div>
+            <div id="chapterContainer"></div>
+        </main>
+        <script>
+            const getSeriesID = () => {
+                document.getElementById('seriesID').innerText =
+                    localStorage.getItem('seriesID', seriesID);
+            };
+
+            const getChapterID = () => {
+                document.getElementById('chapterID').innerText =
+                    localStorage.getItem('chapterID', chapterID);
+            };
+
+            window.onload = getSeriesID();
+            window.onload = getChapterID();
+        </script>
+        <script src="/src/js/chapterPage.js"></script>
+    </body>
+</html>

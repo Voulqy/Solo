@@ -15,6 +15,7 @@ a:visited {
     text-decoration: none;
 }
 
+#seriesID,
 #chapterID {
     display: none;
 }
@@ -73,5 +74,9 @@ a:visited {
 @media screen and (min-width: 1400px) {
     #pagesContainer {
         margin: 0 auto;
+    }
+
+    .chapterPage {
+        max-width: 600px;
     }
 }

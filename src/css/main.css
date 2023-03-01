@@ -14,4 +14,41 @@ a,
 a:active,
 a:visited {
     text-decoration: none;
+    color: #fff;
 }
+
+#seriesID,
+#chapterID {
+    display: none;
+}
+
+/* Series page open */
+.seriesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    /* align-items: flex-start; */
+    /* justify-content: space-around; */
+}
+
+.seriesCard {
+    /* background-color: red; */
+    width: 165px;
+    height: 250px;
+    /* padding: 0 4px; */
+}
+
+.poster {
+    width: 100%;
+    height: 246px;
+    border-radius: 4px;
+}
+
+.seriesName {
+    padding-top: 8px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* Series page close */

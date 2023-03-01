@@ -1,0 +1,50 @@
+[
+    {
+        "chapterID": "000",
+        "chapterPageCount": 12
+    },
+    {
+        "chapterID": "001",
+        "chapterPageCount": 22
+    },
+    {
+        "chapterID": "002",
+        "chapterPageCount": 19
+    },
+    {
+        "chapterID": "003",
+        "chapterPageCount": 27
+    },
+    {
+        "chapterID": "004",
+        "chapterPageCount": 27
+    },
+    {
+        "chapterID": "005",
+        "chapterPageCount": 26
+    },
+    {
+        "chapterID": "006",
+        "chapterPageCount": 31
+    },
+    {
+        "chapterID": "007",
+        "chapterPageCount": 36
+    },
+    {
+        "chapterID": "008",
+        "chapterPageCount": 36
+    },
+    {
+        "chapterID": "009",
+        "chapterPageCount": 27
+    },
+    {
+        "chapterID": "010",
+        "chapterPageCount": 34
+    },
+    {
+        "chapterID": "011",
+        "chapterPageCount": 35
+    }
+]
